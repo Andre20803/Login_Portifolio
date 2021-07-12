@@ -1,0 +1,118 @@
+body{
+    background: url(https://i.redd.it/zdarxtlshg611.jpg);
+    background-size: cover;
+}
+.cima:hover{
+    box-shadow: 0px 0px 9px 1px white;
+    transition: 0.2s;
+}
+.cima{
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 22vh;
+    height: 380px;
+    width: 500px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 8px;
+}
+input{
+    background-color:rgba(0,0,0,0.0);
+    text-align: center;
+    border-style:none;
+    height: 1.2em;
+    border-bottom-color: white;
+    border-radius: 3px;
+    margin: 20px;
+    color: white;
+    padding: 2px;
+    width: 20em;
+}
+::placeholder{
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: white;
+}
+input:hover{
+    box-shadow:0px 0px 4px 2px   ;
+    text-decoration: white;
+    transition: 0.8s;
+    
+}
+
+h2{
+
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: white;
+    text-transform:uppercase; letter-spacing: 3px;
+}
+button{
+    display: block;
+    margin: 50px auto;
+    width: 110px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:black;
+    padding: 1px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    height: 1.9em;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0px 0px 2px 1px   ;
+
+    color: white;
+    text-decoration: underline;
+    background-color:rgba(0,0,0,0.1);
+    transition: 0.8s;
+}
+/* DIV REGISTRAR */
+
+#test{
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 22vh;
+    height: 39  0px;
+    width: 500px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 8px;
+}
+.itensdiv2{
+display: block;
+text-align: center;
+}
+#user{
+border: 0.5px white solid;
+border-top: transparent;
+border-right: transparent;
+border-left: transparent;   
+}
+#user2{
+    border: 0.5px white solid;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;   
+    }
+    #user3{
+        border: 0px white solid;
+        border-top: transparent;
+        border-right: transparent;
+        border-left: transparent;   
+        }
+       
+        
+        .itensdiv2>input:focus{
+        color: white;
+        font-size: 16px;
+        transition: 0.4s;
+        }
+
+        label{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
